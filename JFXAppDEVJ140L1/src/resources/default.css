@@ -1,0 +1,31 @@
+/* 
+    Author     : Olga
+*/
+
+VBox {
+    -fx-padding: 5;
+}
+
+VBox .header {
+    -fx-font-size: 30;
+}
+
+VBox .message {
+    -fx-font-size: 20;
+}
+
+GridPane {
+    -fx-padding: 10;
+    -fx-vgap: 10;
+    -fx-hgap: 20;
+}
+
+.buttonbar {
+    -fx-spacing: 5;
+    -fx-padding: 15;
+}
+
+HBox Button {
+    -fx-pref-width: 70;
+    -fx-font-size: 15;
+}

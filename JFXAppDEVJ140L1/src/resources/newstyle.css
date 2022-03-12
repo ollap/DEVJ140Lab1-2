@@ -1,0 +1,48 @@
+/* 
+    Author     : Olga
+*/
+
+VBox {
+    -fx-alignment: center;
+    -fx-background-color: #23415f;
+    -fx-padding: 10;
+}
+
+VBox .header {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 35;
+}
+
+VBox .message {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 20;
+}
+
+GridPane {
+    -fx-alignment: center;
+    -fx-padding: 50 0 0 10;
+    -fx-vgap: 10;
+    -fx-hgap: 16;
+}
+
+GridPane Label {
+    -fx-text-fill: #ffffff;
+}
+
+TableView Label {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #23415f;
+}
+
+.buttonbar {
+    -fx-alignment: center;
+    -fx-spacing: 15;
+    -fx-padding: 15 0 15 0;
+}
+
+HBox Button {
+    -fx-background-color: #ffffff;
+    -fx-pref-width: 77;
+    -fx-text-fill: #23415f;
+    -fx-font-size: 17;
+}
